@@ -17,3 +17,13 @@ footer {
   text-align: center;
   padding: 1em;
 }
+
+/* Added media query for portrait screens */
+@media (orientation: portrait) {
+  main {
+    /* Center text */
+    text-align: center;
+    /* So it never spans the full vw (thought 90% looked okay) */
+    max-width: 90vw;
+  }
+}
