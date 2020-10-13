@@ -1,10 +1,10 @@
 // Declare Variables
 const heights = window.innerHeight;
-const browserWindow = document.querySelector("html")
+const content = document.querySelector(".wrapper")
 
 // Declare function
 function resize() {
-  browserWindow.style.height = heights + "px";
+  content.style.height = heights + "px";
 }
 
 // Call/invoke function
